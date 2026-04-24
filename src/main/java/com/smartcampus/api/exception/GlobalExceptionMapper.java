@@ -22,4 +22,5 @@ public class GlobalExceptionMapper implements ExceptionMapper<Throwable> {
                 .type(MediaType.APPLICATION_JSON)
                 .build();
     }
+    
 }
