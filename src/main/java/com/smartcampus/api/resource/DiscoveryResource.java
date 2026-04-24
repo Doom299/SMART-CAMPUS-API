@@ -26,9 +26,9 @@ public class DiscoveryResource {
     }
 
         // Temporary endpoint for demonstrating GlobalExceptionMapper (500)
-    @GET
-    @Path("/debug/error")
-    public Map<String, Object> triggerUnexpectedError() {
-        throw new RuntimeException("Intentional demo error for 500 mapping proof");
-    }
+    // @GET
+    // @Path("/debug/error")
+    // public Map<String, Object> triggerUnexpectedError() {
+    //     throw new RuntimeException("Intentional demo error for 500 mapping proof");
+    // }
 }
